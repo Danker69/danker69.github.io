@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.logo_button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.ecovision-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.settings_container {
+    margin-top: 100px;
+}
+
+.settings_section {
+    margin: 20px 0;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+input {
+    padding: 5px;
+    width: 50%; /* Adjusted width for a more reasonable size */
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
