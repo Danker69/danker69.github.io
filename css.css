@@ -3,14 +3,7 @@
     width: 100%;
 }
 
-.center_of_screen {
-    width: 30%;
-    height: 30%;
-    padding: 35%;
-    text-align: center;
-}
-
-.center_horizontally {
+.center {
     width: 50%;
     padding: 25% 0;
     text-align: center;
@@ -23,4 +16,14 @@ a.button {
     color: buttontext;
     background-color: buttonface;
     text-decoration: none;
+}
+
+.ecovision-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
 }
