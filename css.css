@@ -2,6 +2,11 @@ p, h1, h2 {
     color: #c99511;
 }
 
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     height: 100%;
     background-image: url("https://img.goodfon.com/original/1920x1200/a/60/priroda-derevya-derevo-listya-4477.jpg");
