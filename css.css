@@ -1,5 +1,9 @@
 body {
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/826/173/small/pine-trees-forest-silhouette-nature-landscape-background-vector.jpg")
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/826/173/small/pine-trees-forest-silhouette-nature-landscape-background-vector.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .page {
