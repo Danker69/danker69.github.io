@@ -16,7 +16,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .page {
@@ -70,7 +70,7 @@ button {
 }
 
 input {
-    padding: 0 25%;
+    margin: 0 25%;
     width: 50%; /* Adjusted width for a more reasonable size */
     display: block;
 }
