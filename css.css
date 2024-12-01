@@ -31,6 +31,13 @@ body {
     text-align: center;
 }
 
+.left {
+    position: absolute;
+    width: 20%;
+    padding: 0 2.5%;
+    text-align: center;
+}
+
 button {
     background-color: green;
     color: white;
