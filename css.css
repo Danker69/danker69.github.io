@@ -18,6 +18,15 @@ a.button {
     text-decoration: none;
 }
 
+a.button.ecovision-button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext white;
+    background-color: buttonface green;
+    text-decoration: none;
+}
+
 .ecovision-button {
     background-color: green;
     color: white;
