@@ -55,13 +55,13 @@ button {
 #SettingsPage {
     text-align: center;
     margin-top: 100px;
-    display: block;
+    /* display: block; */
 }
 
 .settings_section {
     margin: 20px 0;
     text-align: center;
-    display: block;
+    /* display: block; */
 }
 
 #SettingsPage label, #SettingsPage button {
@@ -70,7 +70,7 @@ button {
 }
 
 input {
-    padding: 5px;
+    padding: 0 25%;
     width: 50%; /* Adjusted width for a more reasonable size */
-    display: block
+    display: block;
 }
