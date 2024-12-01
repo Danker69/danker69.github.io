@@ -1,3 +1,7 @@
+p, h1, h2 {
+    color: #c99511;
+}
+
 html {
     height: 100%;
     margin: 0;
@@ -17,8 +21,8 @@ body {
 
 .page {
     height: 100%;
-    width: 100%;
-    margin: 0 100px;
+    width: 90%;
+    margin: 0 5%;
 }
 
 .center {
@@ -31,7 +35,7 @@ button {
     background-color: green;
     color: white;
     border: black;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     margin: 0 5px;
@@ -41,8 +45,28 @@ button {
     background-color: green;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
+
+#SettingsPage {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#SettingsPage.div {
+    margin: 20px 0;
+}
+
+#SettingsPage.label, #SettingsPage.input, #SettingsPage.button {
+    /* display: block; */
+    margin: 10px auto;
+}
+
+input {
+    padding: 5px;
+    width: 50%; /* Adjusted width for a more reasonable size */
+}
+
