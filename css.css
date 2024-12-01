@@ -1,4 +1,4 @@
-p, h1, h2 {
+p, h1, h2, li {
     color: #ba8703;
 }
 
@@ -45,7 +45,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 5px;
 }
 
 .ecovision-button {
