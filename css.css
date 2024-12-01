@@ -25,22 +25,13 @@ body {
     text-align: center;
 }
 
-a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
-    text-decoration: none;
-}
-
-a.button.ecovision-button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext white;
-    background-color: buttonface green;
-    text-decoration: none;
+button {
+    background-color: green;
+    color: white;
+    border: black;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .ecovision-button {
