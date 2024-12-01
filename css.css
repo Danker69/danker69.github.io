@@ -4,9 +4,10 @@ html {
 }
 
 body {
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/826/173/small/pine-trees-forest-silhouette-nature-landscape-background-vector.jpg");
     height: 100%;
-    background-position: bottom;
+    background-image: url("https://img.goodfon.com/original/1920x1200/a/60/priroda-derevya-derevo-listya-4477.jpg");
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
