@@ -2,7 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" href="css.css">
-  <a class="button ecovision-button" href="#HomePage">EcoVision</a>
+  <script src="js.js"></script>
+  <a class="button ecovision-button" onclick="goToHome()" href="#HomePage">EcoVision</a>
   <div class="center">
     <h1 style="text-align: center;">EcoVision</h1>
   </div>
@@ -13,30 +14,30 @@
   <!-- JOSEPH'S PAGE -->
 
   <div class="center">
-    <a class="button" href="#AlertPage">Alerts</a>
-    <a class="button" href="#DataPage">Data</a>
-    <a class="button" href="#AccountPage">Account</a>
-    <a class="button" href="#SettingsPage">Settings</a>
+    <a class="button" href="#AlertPage" onclick="goToAlert()">Alerts</a>
+    <a class="button" href="#DataPage" onclick="goToData()">Data</a>
+    <a class="button" href="#AccountPage" onclick="goToData()">Account</a>
+    <a class="button" href="#SettingsPage" onclick="goToData()">Settings</a>
   </div>
 
 </div>
 
-<div class="page" id="AlertPage">
+<div class="page" id="AlertPage" style="display: none">
   <!-- BRIAN'S PAGE-->
   <p>Testing - Alert Page</p>
 </div>
 
-<div class="page" id="DataPage">
+<div class="page" id="DataPage" style="display: none">
   <!-- DIPESH'S PAGE -->
   <p>Testing - Data Page</p>
 </div>
 
-<div class="page" id="AccountPage">
+<div class="page" id="AccountPage" style="display: none">
   <!-- THINH'S PAGE-->
   <p>Testing - Account Page</p>
 </div>
 
-<div class="page" id="SettingsPage">
+<div class="page" id="SettingsPage" style="display: none">
   <!-- DIPESH'S PAGE-->
   <p>Testing - Settings Page</p>
 </div>
