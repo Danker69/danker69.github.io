@@ -56,12 +56,12 @@ button {
     margin-top: 100px;
 }
 
-#SettingsPage.div {
+.settings_section {
     margin: 20px 0;
 }
 
 #SettingsPage.label, #SettingsPage.input, #SettingsPage.button {
-    /* display: block; */
+    display: block;
     margin: 10px auto;
 }
 
