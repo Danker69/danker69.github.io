@@ -38,6 +38,19 @@ body {
     /* overflow: hidden; */
 }
 
+.bg-div {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .25)), url("https://img.goodfon.com/original/1920x1200/a/60/priroda-derevya-derevo-listya-4477.jpg");
+    width: 100%;
+    border-radius: 5px;
+    background-position: top center;
+    animation: move-bg-div 40s infinite alternate
+}
+
+@keyframes move-bg-div {
+    0% {background-position: top center}
+    100% {background-position: bottom center}
+}
+
 .grad-txt {
     background: -webkit-linear-gradient(lightgoldenrodyellow, rgb(210, 210, 210));
     -webkit-background-clip: text;
