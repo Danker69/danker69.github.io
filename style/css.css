@@ -110,8 +110,13 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
+    margin: 5px;
+    padding: 50px;
     font-size: 16px;
     cursor: pointer;
+    background-image: url("https://img.goodfon.com/original/1920x1200/a/60/priroda-derevya-derevo-listya-4477.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #SettingsPage {

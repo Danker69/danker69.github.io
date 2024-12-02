@@ -3,8 +3,6 @@ function goToHome() {
     document.getElementById("DataPage").style.display = "none";
     document.getElementById("AccountPage").style.display = "none"
     document.getElementById("SettingsPage").style.display = "none";
-    document.getElementById("SignUpPage").style.display = "none";
-    document.getElementById("LoginPage").style.display = "none";
     document.getElementById("HomePage").style.display = "block";
 }
 
