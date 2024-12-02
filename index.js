@@ -8,7 +8,7 @@ function goToHome() {
 
 function goToAlert() {
     document.getElementById("HomePage").style.display = "none";
-    document.getElementById("AlertPage").style.display = "block";
+    document.getElementById("AlertPage").style.display = "flex";
 }
 
 function goToData() {

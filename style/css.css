@@ -1,5 +1,7 @@
 p, h1, h2, li {
-    color: #ba8703;
+    background: -webkit-linear-gradient(lightgoldenrodyellow, rgb(210, 210, 210));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -51,10 +53,18 @@ body {
     100% {background-position: bottom center}
 }
 
-.grad-txt {
-    background: -webkit-linear-gradient(lightgoldenrodyellow, rgb(210, 210, 210));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.alert-w {
+    width: 33%;
+}
+
+.alert-action {
+    width: 65%;
+    display: inline-block;
+}
+
+.action-button {
+    font-size: 1.25em;
+    height: 50%;
 }
 
 footer {
@@ -119,6 +129,10 @@ button {
 #SettingsPage label, #SettingsPage button {
     display: block;
     margin: 10px auto;
+}
+
+#AlertPage {
+    display: flex;
 }
 
 input {
