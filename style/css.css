@@ -1,4 +1,4 @@
-p, h1, h2, li {
+p, h1, h2, li, label {
     background: -webkit-linear-gradient(lightgoldenrodyellow, rgb(210, 210, 210));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -103,6 +103,10 @@ button {
 
 .rt-align {
     float: right;
+}
+
+.flex {
+    display: flex;
 }
 
 .ecovision-button {
