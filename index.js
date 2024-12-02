@@ -27,3 +27,13 @@ function goToSettings() {
     document.getElementById("HomePage").style.display = "none";
     document.getElementById("SettingsPage").style.display = "block";
 }
+
+function goToLogin() {
+    document.getElementById("HomePage").style.display = "none";
+    document.getElementById("LoginPage").style.display = "block";
+}
+
+function goToSignUp() {
+    document.getElementById("HomePage").style.display = "none";
+    document.getElementById("SignUpPage").style.display = "block";
+}
