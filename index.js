@@ -35,7 +35,7 @@ function goToLogin() {
     document.getElementById("AccountPage").style.display = "none"
     document.getElementById("SettingsPage").style.display = "none";
     document.getElementById("SignUpPage").style.display = "none";
-    document.getElementById("LoginPage").style.display = "block";
+    document.getElementById("LoginPage").style.display = "flex";
 }
 
 function goToSignUp() {
@@ -45,5 +45,5 @@ function goToSignUp() {
     document.getElementById("AccountPage").style.display = "none"
     document.getElementById("SettingsPage").style.display = "none";
     document.getElementById("LoginPage").style.display = "none";
-    document.getElementById("SignUpPage").style.display = "block";
+    document.getElementById("SignUpPage").style.display = "flex";
 }
